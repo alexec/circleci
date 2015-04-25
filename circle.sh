@@ -12,4 +12,7 @@ case "$1" in
     post_machine)
         docker version
         ;;
+    start_build)
+	curl -v -X POST https://circleci.com/api/v1/project/alexec/$2/tree/master?circle-token=$CIRCLE_TOKEN
+	;;
 esac
