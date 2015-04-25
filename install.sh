@@ -3,4 +3,4 @@ set -eux
 
 OUT=$1
 
-cp $(basename $)/* $OUT
+cp $(basename $0)/* $OUT
