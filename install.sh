@@ -3,4 +3,4 @@ set -eux
 
 OUT=$1
 
-cp $(basename $0)/* $OUT
+cp -Rv etc circle.sh settings.xml $OUT
