@@ -1,6 +1,6 @@
 #! /bin/sh
 set -eux
 
-OUT=$!
+OUT=$1
 
 cp $(basename $)/* $OUT
